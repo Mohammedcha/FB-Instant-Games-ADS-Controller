@@ -62,6 +62,7 @@ ShowInter();
 <strong>Interstitial</strong>
 
 Load Interstitial in 10s 
+
 Show Interstitial in 15s 
 
 <pre>
@@ -76,6 +77,7 @@ window.setInterval(ShowInter, 15000); // Show Interstitial in 15s
 <strong>Rewarded Video</strong>
 
 Load RewardedVideo in 16s 
+
 Show RewardedVideo in 32s 
 
 <pre>
