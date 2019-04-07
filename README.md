@@ -54,4 +54,16 @@ ShowInter();
 
 </br>
 
+<pre>
+<script>
+	window.setInterval(LoadInter, 10000); // Load Interstitial in 10s 
+	window.setInterval(ShowInter, 15000); // Show Interstitial in 15s 
+
+	window.setInterval(LoadRewarded, 16000); // Load RewardedVideo in 16s 
+	window.setInterval(ShowRewarded, 32000); // Show RewardedVideo in 32s 
+</script>
+
+</pre>
+
+
 <strong>NB :</strong> Do not call the Interstitial & Rewarded Video functions at the same time & same place !
