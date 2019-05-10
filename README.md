@@ -21,7 +21,7 @@ Learn how to integrate <code>Fb audience network</code> with <code>instant games
 
 </br>
 
-<strong>2.</strong> Open AdsController.js file and replace the <code>xxxxxxxxxxxx_xxxxxxxxxxxx</code> with your Interstitial & Rewarded Video IDs
+<strong>3.</strong> Open AdsController.js file and replace the <code>xxxxxxxxxxxx_xxxxxxxxxxxx</code> with your Interstitial & Rewarded Video IDs
 
 <pre>
 const INTERSTITIAL_PLACEMENT_ID = 'xxxxxxxxxxxx_xxxxxxxxxxxx'; //*-------- Interstitial -------*//
@@ -32,7 +32,7 @@ const REWARDED_PLACEMENT_ID = 'xxxxxxxxxxxx_xxxxxxxxxxxx'; //*-------- Rewarded 
 </br>
 
 
-<strong>3.</strong> Start Pre-loading your ADS by calling 
+<strong>4.</strong> Start Pre-loading your ADS by calling 
 
 <pre>
 LoadRewarded();
@@ -43,7 +43,7 @@ LoadInter();
 </br>
 
 
-<strong>4.</strong> Ads can be shown anywhere you want by calling this function 
+<strong>5.</strong> Ads can be shown anywhere you want by calling this function 
 
 <pre>
 ShowRewarded();
